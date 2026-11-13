@@ -10,4 +10,4 @@ def build_augmentation_flags(augmentation_config,):
         "color_jitter": "color_jitter" in augmentation_config,
         "rgb_shift": "rgb_shift" in augmentation_config,
         "image_compression": "image_compression" in augmentation_config,
-    } 
+    }
